@@ -1,0 +1,136 @@
+body {
+  background-image: url("Background.jpg");
+  font-family: Arial, sans-serif;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.symptoms-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  text-align: left;
+}
+
+.symptoms-grid label {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+}
+
+button[type="reset"] {
+  background-color: #dc3545;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#hasil-diagnosa {
+  margin-top: 20px;
+}
+
+#hasil-diagnosa p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.gejala {
+  border: 1px solid #ccc; /* Sesuaikan warna dan tebal border sesuai selera */
+  padding: 5px;
+  background-color: rgb(147, 220, 209);
+}
+
+.gambar-kiri-atas {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  width: 200px;
+}
+
+.gejala:hover {
+  background-color: #4ed0ff;
+  cursor: pointer;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Gaya CSS untuk mengatur tampilan */
+.containerrr {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.disease {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+}
